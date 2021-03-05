@@ -61,7 +61,7 @@ namespace TP1PBO2020
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
  
-            this.Hide();
+            this.Close();
 
         }
     }
