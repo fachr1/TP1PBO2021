@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,8 +27,11 @@ namespace TP1PBO2020
             if (txtPassword.Text == "pbo123")
             {
                 MessageBox.Show("Login Success");
+
+                Home home = new Home();
                 this.Hide();
-                
+                home.ShowDialog();
+                this.Show();
             }
             else if (txtUsername.Text == "" || txtPassword.Text == "")
             {
