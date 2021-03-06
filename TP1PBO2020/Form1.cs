@@ -64,5 +64,13 @@ namespace TP1PBO2020
             this.Close();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 detail = new Form2();
+            this.Hide();
+            detail.ShowDialog();
+            this.Show();
+        }
     }
 }

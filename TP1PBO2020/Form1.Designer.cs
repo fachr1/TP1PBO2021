@@ -224,7 +224,7 @@ namespace TP1PBO2020
             this.panel8.Controls.Add(this.label13);
             this.panel8.Controls.Add(this.button5);
             this.panel8.Controls.Add(this.pictureBox4);
-            this.panel8.Location = new System.Drawing.Point(497, 328);
+            this.panel8.Location = new System.Drawing.Point(37, 118);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(190, 193);
             this.panel8.TabIndex = 8;
@@ -266,6 +266,7 @@ namespace TP1PBO2020
             this.button5.TabIndex = 1;
             this.button5.Text = "Beli";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox4
             // 
@@ -524,7 +525,7 @@ namespace TP1PBO2020
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.button2);
             this.panel5.Controls.Add(this.pictureBox1);
-            this.panel5.Location = new System.Drawing.Point(37, 118);
+            this.panel5.Location = new System.Drawing.Point(498, 328);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(190, 193);
             this.panel5.TabIndex = 3;
